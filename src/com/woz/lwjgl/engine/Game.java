@@ -13,7 +13,7 @@ import org.lwjgl.opengl.Display;
  * Time: 12:50 PM
  */
 public class Game {
-	public static final double GAME_SPEED = 0.0001;
+	public static final double GAME_SPEED = 0.000001;
 	private Window _window;
 	private IScene _scene;
 

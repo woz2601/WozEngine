@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05750ba7-c2ec-4ff8-b16f-7346c367cb68" name="Default" comment="" />
+    <list default="true" id="05750ba7-c2ec-4ff8-b16f-7346c367cb68" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Game.java" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Game.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/TestScene.java" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/TestScene.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="LWJGLWEngine.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364317549014" ignored="false" />
@@ -14,7 +19,7 @@
     <file path="/Debug.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364338369880" ignored="false" />
     <file path="/TEstScene.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364323345690" ignored="false" />
     <file path="/IScene.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364323346019" ignored="false" />
-    <file path="/TestScene.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364506957986" ignored="false" />
+    <file path="/TestScene.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364509213298" ignored="false" />
     <file path="/Time.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364328498061" ignored="false" />
     <file path="/Text.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364337426264" ignored="false" />
     <file path="/Lesson13.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364328135806" ignored="false" />
@@ -34,6 +39,7 @@
     <file path="/GameObject.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364454496373" ignored="false" />
     <file path="/Box.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364507287811" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Vector2.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364451643360" ignored="false" />
+    <file path="/Dummy.txt" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364507925898" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +118,7 @@
       <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="23" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0">
+            <state line="15" column="50" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -148,7 +154,7 @@
       <file leaf-file-name="Window.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/Window.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="30" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.6295872">
+            <state line="67" column="26" selection-start="1618" selection-end="1618" vertical-scroll-proportion="0.5641026">
               <folding />
             </state>
           </provider>
@@ -157,7 +163,7 @@
       <file leaf-file-name="TestScene.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/TestScene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="42" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
+            <state line="50" column="60" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -190,6 +196,14 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -205,10 +219,10 @@
         <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Vector2.java" />
         <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/gameobject/GameObject.java" />
         <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Input.java" />
-        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Game.java" />
         <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Window.java" />
-        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/TestScene.java" />
         <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/gameobject/Box.java" />
+        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/TestScene.java" />
       </list>
     </option>
   </component>
@@ -218,7 +232,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -391,15 +405,19 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
@@ -590,6 +608,24 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="05750ba7-c2ec-4ff8-b16f-7346c367cb68" name="Default" comment="" />
@@ -630,7 +666,7 @@
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -642,7 +678,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12700106" sideWeight="0.63697106" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36302894" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36302894" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -762,13 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="23" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/Input.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="14" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
@@ -804,9 +833,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="50" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/TestScene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="42" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
+        <state line="50" column="60" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -815,7 +851,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/Window.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="30" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.6295872">
+        <state line="67" column="26" selection-start="1618" selection-end="1618" vertical-scroll-proportion="0.5641026">
           <folding />
         </state>
       </provider>
