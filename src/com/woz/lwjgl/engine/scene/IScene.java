@@ -7,5 +7,7 @@ package com.woz.lwjgl.engine.scene;
  * Time: 2:41 PM
  */
 public interface IScene {
+	public void update(double deltaTime);
 	public void draw();
+	public void destroy();
 }

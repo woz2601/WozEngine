@@ -21,7 +21,7 @@ public class Input {
 	}
 
 	public static void init() {
-		Mouse.setGrabbed(true);
+		//Mouse.setGrabbed(true);
 	}
 
 	public static int getMouseX() {

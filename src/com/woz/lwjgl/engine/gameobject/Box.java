@@ -43,13 +43,13 @@ public class Box extends GameObject {
 
 	@Override
 	public void draw() {
-		GL11.glColor3f(0.5f, 0.5f, 1.0f);
-
-		GL11.glBegin(GL11.GL_QUADS);
-		GL11.glVertex2f(_position.x, _position.y);
-		GL11.glVertex2f(_position.x + _width, _position.y);
-		GL11.glVertex2f(_position.x + _width, _position.y + _height);
-		GL11.glVertex2f(_position.x, _position.y + _height);
-		GL11.glEnd();
+		//GL11.glColor3f(0.5f, 0.5f, 1.0f);
+//
+		//GL11.glBegin(GL11.GL_QUADS);
+		//GL11.glVertex2f(_position.x, _position.y);
+		//GL11.glVertex2f(_position.x + _width, _position.y);
+		//GL11.glVertex2f(_position.x + _width, _position.y + _height);
+		//GL11.glVertex2f(_position.x, _position.y + _height);
+		//GL11.glEnd();
 	}
 }

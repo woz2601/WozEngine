@@ -10,7 +10,8 @@ import com.woz.lwjgl.engine.Game;
  */
 public class Main {
 	public static void main(String[] args) {
-		Game game = new Game();
-		game.run();
+		Thread game = new Game();
+		game.start();
+
 	}
 }

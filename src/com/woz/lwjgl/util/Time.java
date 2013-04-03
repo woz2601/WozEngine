@@ -11,6 +11,7 @@ public class Time {
 	private static long _lastFPSPrint = 0;
 	private static long _currentFrame;
 	private static String _FPS = "";
+	private static double  _deltaTime;
 
 	public static long getTime() {
 		return System.nanoTime();
@@ -19,18 +20,23 @@ public class Time {
 	public static void tick() {
 		_lastFrame = _currentFrame;
 		_currentFrame = Time.getTime();
+		calculateDeltaTime();
 	}
 
-	public static long getDeltaTime() {
-		return _currentFrame - _lastFrame;
+	private static void calculateDeltaTime() {
+		_deltaTime = (_currentFrame - _lastFrame) / 1000000000;
+	}
+
+	public static double getDeltaTime() {
+		return _deltaTime;
 	}
 
 	public static int getFPS() {
 		int deltaTime = (int) Time.getDeltaTime();
 		if (deltaTime != 0)
-			return (1000000000 / deltaTime);
+			return (1 / deltaTime);
 		else
-			return deltaTime;
+			return 0;
 	}
 
 	public static String printFPS() {

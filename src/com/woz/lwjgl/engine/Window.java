@@ -6,9 +6,7 @@ import com.woz.lwjgl.util.Time;
 import com.woz.lwjgl.util.VersionTest;
 import com.woz.lwjgl.util.Debug;
 import org.lwjgl.LWJGLException;
-import org.lwjgl.opengl.Display;
-import org.lwjgl.opengl.DisplayMode;
-import org.lwjgl.opengl.GL11;
+import org.lwjgl.opengl.*;
 import org.lwjgl.util.glu.GLU;
 
 /*
@@ -27,19 +25,19 @@ public class Window {
 		initComponents();
 
 		if (Debug.DEBUG_MODE)
-			VersionTest.printVersion();
+			Debug.printInfo();
 	}
 
 	private void initComponents() {
 	}
 
 	private void initDisplay() {
+		PixelFormat pixelFormat = new PixelFormat();
+		ContextAttribs contextAttribs = new ContextAttribs(3, 0);
 		try {
 			Display.setDisplayMode(new DisplayMode(WIDTH, HEIGHT));
 			Display.setTitle("LWJGL Engine");
-			Display.create();
-
-
+			Display.create(pixelFormat,  contextAttribs);
 		} catch (LWJGLException e) {
 			e.printStackTrace();
 			System.exit(0);
@@ -54,11 +52,12 @@ public class Window {
 		//GL11.glEnable(GL11.GL_TEXTURE_2D); // Enable Texture Mapping
 		GL11.glEnable(GL11.GL_DEPTH_TEST);
 
+		GL11.glViewport(0, 0, Display.getWidth(), Display.getHeight());
 		GL11.glMatrixMode(GL11.GL_PROJECTION);
-		// Select The Projection Matrix
 		GL11.glLoadIdentity(); // Reset The Projection Matrix
+		GL11.glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
 
-		GLU.gluPerspective(60.0f, Display.getWidth() / Display.getHeight(), 1.0f, 100.0f);
+		GLU.gluPerspective(45.0f, Display.getWidth() / Display.getHeight(), 1.0f, 100.0f);
 		GL11.glMatrixMode(GL11.GL_MODELVIEW);
 		GL11.glLoadIdentity();
 	}
@@ -69,6 +68,7 @@ public class Window {
 	}
 
 	public static void close() {
+
 		Display.destroy();
 		System.exit(0);
 	}

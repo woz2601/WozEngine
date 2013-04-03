@@ -1,6 +1,6 @@
 package com.woz.lwjgl.engine;
 
-import com.woz.lwjgl.engine.scene.TestScene;
+import com.woz.lwjgl.engine.scene.VertexArrayTest;
 import com.woz.lwjgl.engine.scene.IScene;
 import com.woz.lwjgl.util.Debug;
 import com.woz.lwjgl.util.Time;
@@ -12,22 +12,20 @@ import org.lwjgl.opengl.Display;
  * Date: 3/26/13
  * Time: 12:50 PM
  */
-public class Game {
-	public static final double GAME_SPEED = 0.000001;
+public class Game extends Thread {
+	public static final double GAME_SPEED = 10.0;
 	private Window _window;
 	private IScene _scene;
 
 	public Game() {
-		_scene = new TestScene();
 		_window = new Window();
+		_scene = new VertexArrayTest();
 
 		Input.init();
 	}
 
 	public void run() {
 		while (!Display.isCloseRequested()) {
-			_window.update();
-
 			Time.tick();
 
 			Input.pollInput();
@@ -36,9 +34,17 @@ public class Game {
 				Debug.printFPS();
 			}
 
+			_scene.update(Time.getDeltaTime());
 			_scene.draw();
+
+			_window.update();
 		}
 
+		shutDown();
+	}
+
+	public void shutDown() {
+		_scene.destroy();
 		Window.close();
 	}
 }
