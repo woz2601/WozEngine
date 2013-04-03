@@ -51,13 +51,16 @@ public class Window {
 		//GL11.glEnable(GL11.GL_BLEND);
 		//GL11.glEnable(GL11.GL_TEXTURE_2D); // Enable Texture Mapping
 		GL11.glEnable(GL11.GL_DEPTH_TEST);
+		GL11.glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
 
 		GL11.glViewport(0, 0, Display.getWidth(), Display.getHeight());
 		GL11.glMatrixMode(GL11.GL_PROJECTION);
 		GL11.glLoadIdentity(); // Reset The Projection Matrix
-		GL11.glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
 
 		GLU.gluPerspective(45.0f, Display.getWidth() / Display.getHeight(), 1.0f, 100.0f);
+
+		//GL11.glOrtho(0, 800, 0, 600, 1, -1);
+
 		GL11.glMatrixMode(GL11.GL_MODELVIEW);
 		GL11.glLoadIdentity();
 	}
@@ -67,7 +70,7 @@ public class Window {
 		Display.sync(120);
 	}
 
-	public static void close() {
+	public static void destroy() {
 
 		Display.destroy();
 		System.exit(0);

@@ -1,7 +1,5 @@
 package com.woz.lwjgl.engine;
 
-import com.sun.javafx.geom.Vec3d;
-import com.woz.lwjgl.util.Time;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.input.Mouse;
 import org.lwjgl.util.vector.Vector2f;
@@ -63,7 +61,7 @@ public class Input {
 
 		while (Keyboard.next()) {
 			if (Keyboard.getEventKey() == Keyboard.KEY_ESCAPE) {
-				Window.close();
+				Window.destroy();
 			}
 		}
 	}

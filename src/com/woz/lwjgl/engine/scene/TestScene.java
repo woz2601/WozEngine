@@ -130,6 +130,4 @@ public class TestScene implements IScene {
 		GL20.glDisableVertexAttribArray(0);
 		GL30.glBindVertexArray(0);
 	}
-
-
 }
