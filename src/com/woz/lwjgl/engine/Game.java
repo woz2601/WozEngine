@@ -1,5 +1,9 @@
 package com.woz.lwjgl.engine;
 
+import com.woz.lwjgl.engine.controller.IController;
+import com.woz.lwjgl.engine.controller.MovingPlaneController;
+import com.woz.lwjgl.engine.controller.RotatePlaneController;
+import com.woz.lwjgl.engine.controller.ScalePlaneController;
 import com.woz.lwjgl.engine.scene.*;
 import com.woz.lwjgl.util.Debug;
 import com.woz.lwjgl.util.Time;
@@ -15,10 +19,12 @@ public class Game {
 	public static final double GAME_SPEED = 10.0;
 	private Window _window;
 	private IScene _scene;
+	private IController _controller;
 
 	public Game() {
 		_window = new Window();
-		_scene = new IndexBufferTest();
+		_scene = new RobotTest();
+		//_controller = new ScalePlaneController((TransformingPlaneTest) _scene);
 
 		Input.init();
 	}
@@ -33,6 +39,7 @@ public class Game {
 				Debug.printFPS();
 			}
 
+			//_controller.update(Time.getDeltaTime());
 			_scene.update(Time.getDeltaTime());
 			_scene.draw();
 

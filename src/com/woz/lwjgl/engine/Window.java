@@ -50,6 +50,7 @@ public class Window {
 		//GL11.glBlendFunc(GL11.GL_SRC_ALPHA, GL11.GL_ONE_MINUS_SRC_ALPHA);
 		//GL11.glEnable(GL11.GL_BLEND);
 		//GL11.glEnable(GL11.GL_TEXTURE_2D); // Enable Texture Mapping
+		//GL11.glEnable(GL11.GL_POLYGON_SMOOTH);
 		GL11.glEnable(GL11.GL_DEPTH_TEST);
 		GL11.glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
 
@@ -57,7 +58,7 @@ public class Window {
 		GL11.glMatrixMode(GL11.GL_PROJECTION);
 		GL11.glLoadIdentity(); // Reset The Projection Matrix
 
-		GLU.gluPerspective(45.0f, Display.getWidth() / Display.getHeight(), 1.0f, 100.0f);
+		GLU.gluPerspective(55.0f, (float)Display.getWidth() / (float)Display.getHeight(), 1.0f, 1000.0f);
 
 		//GL11.glOrtho(0, 800, 0, 600, 1, -1);
 

@@ -2,6 +2,7 @@
   <dictionary name="Daniel">
     <words>
       <w>lwjgl</w>
+      <w>ortho</w>
       <w>println</w>
       <w>vboi</w>
     </words>

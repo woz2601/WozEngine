@@ -12,9 +12,10 @@ public class Time {
 	private static long _currentFrame;
 	private static String _FPS = "";
 	private static double  _deltaTime;
+	private static final long _startTime = System.nanoTime();
 
 	public static long getTime() {
-		return System.nanoTime();
+		return System.nanoTime() - _startTime;
 	}
 
 	public static void tick() {
@@ -24,7 +25,7 @@ public class Time {
 	}
 
 	private static void calculateDeltaTime() {
-		_deltaTime = (_currentFrame - _lastFrame) / 1000000000;
+		_deltaTime = (_currentFrame - _lastFrame) / 1000000000f;
 	}
 
 	public static double getDeltaTime() {

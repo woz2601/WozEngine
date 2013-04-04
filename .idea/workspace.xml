@@ -2,32 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05750ba7-c2ec-4ff8-b16f-7346c367cb68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/BasicTriangleTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/IndexBufferTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/PyramidTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/PyramidTest2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/VertexArrayTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/CubeTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/util/Direction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Graphics.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/controller/IController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/controller/MovingPlaneController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/controller/PlayerController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/gameobject/Robot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/RobotTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/controller/RotatePlaneController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/controller/ScalePlaneController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/TransformingPlaneTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Daniel.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Daniel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Game.java" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Input.java" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Input.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Main.java" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/TestScene.java" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/TestScene.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/IndexBufferTest.java" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/IndexBufferTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/woz/lwjgl/util/Time.java" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/util/Time.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Window.java" afterPath="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Window.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LWJGLWEngine.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364959690382" ignored="false" />
-    <file path="/Game.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364970010803" ignored="false" />
-    <file path="/Window.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364959644951" ignored="false" />
-    <file path="/fragment.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364961201065" ignored="false" />
+    <file path="/Game.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1365059194028" ignored="false" />
+    <file path="/Window.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1365059421481" ignored="false" />
+    <file path="/fragment.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364972743356" ignored="false" />
     <file path="/Input.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364454668101" ignored="false" />
     <file path="/Scene.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364323370594" ignored="false" />
     <file path="/VersionTest.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364432786034" ignored="false" />
     <file path="/Debug.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364959201630" ignored="false" />
     <file path="/TEstScene.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364323345690" ignored="false" />
-    <file path="/IScene.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364785120910" ignored="false" />
+    <file path="/IScene.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1365036941143" ignored="false" />
     <file path="/TestScene.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364785644853" ignored="false" />
-    <file path="/Time.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364520265531" ignored="false" />
+    <file path="/Time.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1365036504054" ignored="false" />
     <file path="/Text.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364337426264" ignored="false" />
     <file path="/Lesson13.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364328135806" ignored="false" />
     <file path="/SimpleText.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364338662647" ignored="false" />
@@ -46,7 +52,7 @@
     <file path="/GameObject.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364454496373" ignored="false" />
     <file path="/Box.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364959213002" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Vector2.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364451643360" ignored="false" />
-    <file path="/Dummy.txt" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364959295476" ignored="false" />
+    <file path="/Dummy.txt" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1365105732345" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/vcs.xml" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364511227954" ignored="false" />
     <file path="/File Header.txt.ft" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364517139876" ignored="false" />
     <file path="$PROJECT_DIR$/../BasicRendering/src/BasicRendering.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364959752038" ignored="false" />
@@ -54,9 +60,22 @@
     <file path="/RenderingTypeTest.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364958380806" ignored="false" />
     <file path="/VertexArrayTest.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364960377164" ignored="false" />
     <file path="/BasicQuadTest.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364962307241" ignored="false" />
-    <file path="/IndexBufferTest.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364970453552" ignored="false" />
+    <file path="/IndexBufferTest.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364971921530" ignored="false" />
     <file path="/PyramidTest.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364963809650" ignored="false" />
     <file path="/PyramidTest2.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364965989343" ignored="false" />
+    <file path="/TranslatingPlaneTest.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1365045320522" ignored="false" />
+    <file path="/Controller.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364972496825" ignored="false" />
+    <file path="/PlayerController.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364972443558" ignored="false" />
+    <file path="/MovingPlaneController.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1365034127971" ignored="false" />
+    <file path="/IController.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1364972497288" ignored="false" />
+    <file path="/RotatePlaneController.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1365035539977" ignored="false" />
+    <file path="/TransformingPlaneTest.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1365045245319" ignored="false" />
+    <file path="/ScalePlaneController.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1365045574190" ignored="false" />
+    <file path="/Graphics.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1365057504599" ignored="false" />
+    <file path="/CubeTest.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1365052534496" ignored="false" />
+    <file path="/RObotTest.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1365057854752" ignored="false" />
+    <file path="/Robot.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1365105929830" ignored="false" />
+    <file path="/RobotTest.java" changelist="05750ba7-c2ec-4ff8-b16f-7346c367cb68" time="1365059322700" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +90,23 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/Game.java" line="20" class="com.woz.lwjgl.engine.Game" package="com.woz.lwjgl.engine">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/controller/MovingPlaneController.java" line="32" class="com.woz.lwjgl.engine.controller.MovingPlaneController" package="com.woz.lwjgl.engine.controller">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/controller/RotatePlaneController.java" line="35" class="com.woz.lwjgl.engine.controller.RotatePlaneController" package="com.woz.lwjgl.engine.controller">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -122,7 +156,6 @@
       </breakpoint>
     </breakpoint_any>
     <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -135,18 +168,43 @@
       <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="12" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="25" column="32" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/Main.java">
+      <file leaf-file-name="Time.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/util/Time.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="16" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
+            <state line="27" column="63" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Graphics.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/Graphics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="24" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CubeTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/CubeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="24" selection-start="687" selection-end="781" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RobotTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/RobotTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="0" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -155,78 +213,34 @@
       <file leaf-file-name="Window.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/Window.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="30" selection-start="1821" selection-end="1821" vertical-scroll-proportion="0.0">
+            <state line="52" column="10" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IScene.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/IScene.java">
+      <file leaf-file-name="Robot.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/gameobject/Robot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+            <state line="2" column="37" selection-start="79" selection-end="79" vertical-scroll-proportion="0.06896552">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VertexArrayTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/VertexArrayTest.java">
+      <file leaf-file-name="GameObject.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/gameobject/GameObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="34" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="12" column="22" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexBufferTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="IndexBufferTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/IndexBufferTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="39" selection-start="1689" selection-end="1689" vertical-scroll-proportion="0.39100346">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PyramidTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/PyramidTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="0" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PyramidTest2.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/PyramidTest2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="8" selection-start="2655" selection-end="2732" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestScene.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/TestScene.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="19" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicTriangleTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/BasicTriangleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="8" selection-start="618" selection-end="695" vertical-scroll-proportion="0.0">
+            <state line="16" column="24" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -251,30 +265,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/controller/PlayerController.java" />
+        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/controller/MovingPlaneController.java" />
+        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/TranslatingPlaneTest.java" />
         <option value="$PROJECT_DIR$/src/com/woz/lwjgl/util/Time.java" />
-        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Input.java" />
-        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/util/Debug.java" />
-        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/gameobject/Box.java" />
-        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/RenderingTypeTest.java" />
-        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/TestScene.java" />
-        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/BasicQuadTest.java" />
-        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Window.java" />
+        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/controller/RotatePlaneController.java" />
         <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/IScene.java" />
-        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/VertexArrayTest.java" />
-        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/IndexBufferTest.java" />
-        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/PyramidTest2.java" />
-        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/PyramidTest.java" />
-        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/BasicTriangleTest.java" />
+        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/TransformingPlaneTest.java" />
+        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/controller/ScalePlaneController.java" />
+        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/CubeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Graphics.java" />
+        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/RObotTest.java" />
+        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/test.java" />
         <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/RobotTest.java" />
+        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/Window.java" />
+        <option value="$PROJECT_DIR$/src/com/woz/lwjgl/engine/gameobject/Robot.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1296" />
+    <option name="height" value="696" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -361,10 +375,6 @@
               <option name="myItemId" value="lwjgl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="math" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -385,58 +395,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="engine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LWJGLWEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LWJGLWEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lwjgl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="engine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scene" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LWJGLWEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LWJGLWEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lwjgl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="engine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gameobject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -688,7 +646,11 @@
       <created>1364959308847</created>
       <updated>1364959308847</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added more test scenes using Index Buffers">
+      <created>1364970956762</created>
+      <updated>1364970956762</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -712,34 +674,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37750557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3605948" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16611843" sideWeight="0.59807694" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3513011" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19480519" sideWeight="0.11296296" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1430096" sideWeight="0.6726058" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32739422" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19480519" sideWeight="0.8740741" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23193277" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -781,7 +743,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added square test scene using Vertex Arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="added more test scenes using Index Buffers" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -796,6 +758,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="added test polygon method&#10;" />
     <MESSAGE value="added square test scene using Vertex Arrays" />
+    <MESSAGE value="added more test scenes using Index Buffers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -805,99 +768,30 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/lwjgl.jar!/org/lwjgl/opengl/WindowsDisplayPeerInfo.class">
+    <entry file="jar://$PROJECT_DIR$/lib/lwjgl.jar!/org/lwjgl/opengl/GLContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="16" selection-start="730" selection-end="730" vertical-scroll-proportion="-12.24">
-          <folding />
-        </state>
+        <state line="22" column="56" selection-start="1102" selection-end="1102" vertical-scroll-proportion="-6.76" />
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/lwjgl.jar!/org/lwjgl/opengl/PeerInfo.class">
+    <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/controller/MovingPlaneController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="40" selection-start="886" selection-end="886" vertical-scroll-proportion="-13.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/lwjgl.jar!/org/lwjgl/opengl/WindowsContextImplementation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="31" selection-start="1335" selection-end="1335" vertical-scroll-proportion="-6.48">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/lwjgl.jar!/org/lwjgl/opengl/ContextGL.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="29" selection-start="2223" selection-end="2223" vertical-scroll-proportion="-13.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/lwjgl.jar!/org/lwjgl/opengl/DrawableGL.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="25" selection-start="1772" selection-end="1772" vertical-scroll-proportion="-14.76">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/lwjgl.jar!/org/lwjgl/opengl/Display.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="24" selection-start="6949" selection-end="6949" vertical-scroll-proportion="-6.92">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/BasicTriangleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="8" selection-start="618" selection-end="695" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/TestScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="19" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/PyramidTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="8" selection-start="2655" selection-end="2732" vertical-scroll-proportion="0.0">
+        <state line="44" column="46" selection-start="1014" selection-end="1015" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/PyramidTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/util/Time.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="0" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/VertexArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="34" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
+        <state line="27" column="63" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/Game.java">
+    <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/controller/RotatePlaneController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="12" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0">
+        <state line="46" column="0" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -911,19 +805,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/Window.java">
+    <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/TransformingPlaneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="30" selection-start="1821" selection-end="1821" vertical-scroll-proportion="0.0">
+        <state line="94" column="39" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/controller/ScalePlaneController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="18" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/lwjgl.jar!/org/lwjgl/opengl/GL11.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="21" selection-start="2545" selection-end="2545" vertical-scroll-proportion="0.56540084" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/IndexBufferTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="39" selection-start="1689" selection-end="1689" vertical-scroll-proportion="0.39100346">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="16" column="24" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/gameobject/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="22" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/CubeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="24" selection-start="687" selection-end="781" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="32" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/scene/RobotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="10" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/Graphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="24" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/woz/lwjgl/engine/gameobject/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="37" selection-start="79" selection-end="79" vertical-scroll-proportion="0.06896552">
+          <folding />
         </state>
       </provider>
     </entry>

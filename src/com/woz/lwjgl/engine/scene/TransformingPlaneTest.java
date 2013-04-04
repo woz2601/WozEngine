@@ -1,30 +1,46 @@
 package com.woz.lwjgl.engine.scene;
 
+/*
+ * User: Daniel
+ * Date: 4/3/13
+ * Time: 2:37 AM
+ */
+
+import com.woz.lwjgl.util.Direction;
 import org.lwjgl.BufferUtils;
-import org.lwjgl.opengl.*;
+import org.lwjgl.opengl.GL11;
+import org.lwjgl.opengl.GL15;
+import org.lwjgl.opengl.GL20;
+import org.lwjgl.opengl.GL30;
 
 import java.nio.ByteBuffer;
 import java.nio.FloatBuffer;
 
-/*
- * User: Daniel
- * Date: 4/2/13
- * Time: 10:56 PM
- */
-public class IndexBufferTest implements IScene {
+public class TransformingPlaneTest implements IScene {
 	private int _vaoId;
 	private int _vboId;
 	private int _vboiId;
-
-	private int _vertexCount;
+	private int _vbocId;
 	private int _indexCount;
 
-	public IndexBufferTest() {
+	private float _posZ;
+	private float _rotationNgle;
+	private float _scale;
+
+	public TransformingPlaneTest() {
+
+		setup();
+
+		_posZ = -2f;
+		_rotationNgle = 0f;
+	}
+
+	private void setup() {
 		float[] vertices = {
 				-0.5f,  0.5f, -2.0f,
 				-0.5f, -0.5f, -2.0f,
-				0.5f, -0.5f, 0.0f,
-				0.5f,  0.5f, 0.0f,
+				0.5f, -0.5f, -2.0f,
+				0.5f,  0.5f, -2.0f,
 		};
 
 		FloatBuffer vertexBuffer = BufferUtils.createFloatBuffer(vertices.length);
@@ -64,12 +80,20 @@ public class IndexBufferTest implements IScene {
 	public void update(double deltaTime) {
 		GL11.glClear(GL11.GL_COLOR_BUFFER_BIT | GL11.GL_DEPTH_BUFFER_BIT);
 		GL11.glLoadIdentity();
-		GL11.glTranslatef(0.0f, 0.0f, -15.0f);
-		GL11.glRotatef(15.0f, 0.0f, 10.0f, 0.0f);
 	}
 
 	@Override
 	public void draw() {
+		//GL15.glBindBuffer(GL15.GL_ARRAY_BUFFER, _vbocId);
+		//GL11.glColorPointer(3, GL11.GL_FLOAT, 0, 0);
+		//GL15.glBindBuffer(GL15.GL_ARRAY_BUFFER, _vboId);
+		//GL11.glVertexPointer(3, GL11.GL_FLOAT, 0, 0);
+		//GL11.glTranslatef(0.0f, 0.0f, _posZ);
+		//GL11.glDrawArrays(GL11.GL_TRIANGLE_STRIP, 0, 4);
+		GL11.glTranslatef(0.0f, 0.0f, _posZ);
+		GL11.glRotatef(_rotationNgle, 0.0f, 0.0f, 1.0f);
+		GL11.glScalef(_scale, _scale, 0);
+
 		GL30.glBindVertexArray(_vaoId);
 		GL20.glEnableVertexAttribArray(0);
 
@@ -94,5 +118,20 @@ public class IndexBufferTest implements IScene {
 
 		GL30.glBindVertexArray(0);
 		GL30.glDeleteVertexArrays(_vaoId);
+	}
+
+	public void setPosZ(float posZ) {
+		_posZ = posZ;
+		//System.out.println("_posZ: " + _posZ);
+
+	}
+
+	public void setRotationAngle(float rotationAngle) {
+		_rotationNgle = rotationAngle;
+		System.out.println("_rotationAngle: " + _rotationNgle);
+	}
+
+	public void setScale(float scale) {
+		_scale = scale;
 	}
 }
