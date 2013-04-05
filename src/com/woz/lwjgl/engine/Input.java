@@ -15,6 +15,13 @@ public class Input {
 	private static Vector2f _mouseVel = new Vector2f();
 	private static Vector2f _lastMousePos = new Vector2f();
 
+	public static boolean moveForward = false;
+	public static boolean moveBackward = false;
+	public static boolean strafeRight = false;
+	public static boolean strafeLeft = false;
+	public static boolean moveUp = false;
+	public static boolean moveDown = false;
+
 	private Input() {
 	}
 
@@ -60,8 +67,71 @@ public class Input {
 		_lastMousePos.y = _mousePos.y;
 
 		while (Keyboard.next()) {
-			if (Keyboard.getEventKey() == Keyboard.KEY_ESCAPE) {
-				Window.destroy();
+			if (Keyboard.getEventKeyState()) {
+				if (Keyboard.getEventKey() == Keyboard.KEY_ESCAPE) {
+					Window.destroy();
+				}
+
+				if (Keyboard.getEventKey() == Keyboard.KEY_W) {
+					moveForward = true;
+					System.out.println("Moving Forward");
+				}
+
+				if (Keyboard.getEventKey() == Keyboard.KEY_S) {
+					moveBackward = true;
+					System.out.println("Moving Backward");
+				}
+
+				if (Keyboard.getEventKey() == Keyboard.KEY_A) {
+					strafeLeft = true;
+					System.out.println("Strafing Left");
+				}
+
+				if (Keyboard.getEventKey() == Keyboard.KEY_D) {
+					strafeRight = true;
+					System.out.println("Strafing Right");
+				}
+
+				if (Keyboard.getEventKey() == Keyboard.KEY_E) {
+					moveUp = true;
+					System.out.println("Moving Up");
+				}
+
+				if (Keyboard.getEventKey() == Keyboard.KEY_Q) {
+					moveDown = true;
+					System.out.println("Moving Down");
+				}
+			}
+			else {
+				if (Keyboard.getEventKey() == Keyboard.KEY_W) {
+					moveForward = false;
+					System.out.println("Stopped Moving Forward");
+				}
+
+				if (Keyboard.getEventKey() == Keyboard.KEY_S) {
+					moveBackward = false;
+					System.out.println("Stopped Moving Backward");
+				}
+
+				if (Keyboard.getEventKey() == Keyboard.KEY_A) {
+					strafeLeft = false;
+					System.out.println("Stopped Strafing Left");
+				}
+
+				if (Keyboard.getEventKey() == Keyboard.KEY_D) {
+					strafeRight = false;
+					System.out.println("Stopped Strafing Right");
+				}
+
+				if (Keyboard.getEventKey() == Keyboard.KEY_E) {
+					moveUp = false;
+					System.out.println("Stopped Moving Up");
+				}
+
+				if (Keyboard.getEventKey() == Keyboard.KEY_Q) {
+					moveDown = false;
+					System.out.println("Stoppd Moving Down");
+				}
 			}
 		}
 	}
