@@ -1,8 +1,7 @@
 package com.woz.lwjgl.engine.scene;
 
-import com.woz.lwjgl.engine.Graphics;
+import com.woz.lwjgl.graphics.Graphics;
 import org.lwjgl.opengl.GL11;
-import sun.org.mozilla.javascript.internal.ast.Yield;
 
 /*
  * User: Daniel

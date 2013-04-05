@@ -23,7 +23,7 @@ public class Game {
 
 	public Game() {
 		_window = new Window();
-		_scene = new CameraTest();
+		_scene = new PyramidTest();
 		//_controller = new ScalePlaneController((TransformingPlaneTest) _scene);
 
 		Input.init();

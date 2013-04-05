@@ -22,6 +22,9 @@ public class Input {
 	public static boolean moveUp = false;
 	public static boolean moveDown = false;
 
+	public static boolean rotateLeft = false;
+	public static boolean rotateRight = false;
+
 	private Input() {
 	}
 
@@ -101,6 +104,16 @@ public class Input {
 					moveDown = true;
 					System.out.println("Moving Down");
 				}
+
+				if (Keyboard.getEventKey() == Keyboard.KEY_LEFT) {
+					rotateLeft = true;
+					System.out.println("Rotating Left");
+				}
+
+				if (Keyboard.getEventKey() == Keyboard.KEY_RIGHT) {
+					rotateRight = true;
+					System.out.println("Rotating Right");
+				}
 			}
 			else {
 				if (Keyboard.getEventKey() == Keyboard.KEY_W) {
@@ -131,6 +144,16 @@ public class Input {
 				if (Keyboard.getEventKey() == Keyboard.KEY_Q) {
 					moveDown = false;
 					System.out.println("Stoppd Moving Down");
+				}
+
+				if (Keyboard.getEventKey() == Keyboard.KEY_LEFT) {
+					rotateLeft = false;
+					System.out.println("Stopped Rotating Left");
+				}
+
+				if (Keyboard.getEventKey() == Keyboard.KEY_RIGHT) {
+					rotateRight = false;
+					System.out.println("Stopped Rotating Right");
 				}
 			}
 		}

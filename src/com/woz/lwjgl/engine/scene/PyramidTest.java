@@ -1,10 +1,8 @@
 package com.woz.lwjgl.engine.scene;
 
-import org.lwjgl.BufferUtils;
+import com.woz.lwjgl.engine.Camera;
+import com.woz.lwjgl.engine.gameobject.Pyramid;
 import org.lwjgl.opengl.*;
-
-import java.nio.ByteBuffer;
-import java.nio.FloatBuffer;
 
 /*
  * User: Daniel
@@ -12,76 +10,54 @@ import java.nio.FloatBuffer;
  * Time: 10:56 PM
  */
 public class PyramidTest implements IScene {
-	private int _vaoId;
-	private int _vboId;
-	private int _vboiId;
-
-	private int _vertexCount;
-	private int _indexCount;
+	private Camera _camera;
+	private Pyramid _pyramid;
+	private float _posZ;
+	private double _rotationAngle;
+	private double _rotationSpeed;
+	private double _moveSpeed;
 
 	public PyramidTest() {
-		//float[] vertices = {
-		//		 0.0f, 4.0f, -3.0f
-		//		-2.0f, 0.0f, -2.0f,
-		//		 2.0f, 0.0f, -2.0f,
-		//		 2.0f, 0.0f, -4.0f,
-		//		-2.0f, 0.0f, -4.0f,
-		//};
-
-		float[] vertices = {
-				-0.5f,  0.5f, -2.0f,
-				-0.5f, -0.5f, -2.0f,
-				0.5f, -0.5f, -2.0f,
-				0.5f, -0.5f, -2.0f,
-				0.5f,  0.5f, -2.0f,
-				-0.5f,  0.5f, -2.0f,
-		};
-
-		FloatBuffer vertexBuffer = BufferUtils.createFloatBuffer(vertices.length);
-		vertexBuffer.put(vertices);
-		vertexBuffer.flip();
-
-		_vertexCount = 6;
-
-		_vaoId = GL30.glGenVertexArrays();
-		GL30.glBindVertexArray(_vaoId);
-
-		_vboId = GL15.glGenBuffers();
-		GL15.glBindBuffer(GL15.GL_ARRAY_BUFFER, _vboId);
-		GL15.glBufferData(GL15.GL_ARRAY_BUFFER, vertexBuffer, GL15.GL_STATIC_DRAW);
-
-		GL20.glVertexAttribPointer(0, 3, GL11.GL_FLOAT, false, 0, 0);
-		GL15.glBindBuffer(GL15.GL_ARRAY_BUFFER, 0);
-		GL30.glBindVertexArray(0);
+		_camera = new Camera();
+		_pyramid = new Pyramid(2.0f, 1.0f);
+		_posZ = 0.0f;
+		_rotationAngle = 0.0;
+		_rotationSpeed = 20.0;
+		_moveSpeed = 10.0;
 	}
 
 	@Override
 	public void update(double deltaTime) {
-		GL11.glClear(GL11.GL_COLOR_BUFFER_BIT | GL11.GL_DEPTH_BUFFER_BIT);
+		_camera.lookAt(_pyramid);
+		_camera.update(deltaTime);
 
-		GL11.glLoadIdentity();
+		move(deltaTime);
+		rotate(deltaTime);
+	}
 
-		GL30.glBindVertexArray(_vaoId);
-		GL20.glEnableVertexAttribArray(0);
+	private void move(double deltaTime) {
+		_posZ = (float) Math.sin(deltaTime * _moveSpeed);
+	}
 
-		GL11.glDrawArrays(GL11.GL_TRIANGLE_FAN, 0, _vertexCount);
+	private void rotate(double deltaTime) {
+		_rotationAngle += _rotationSpeed * deltaTime;
 
-		GL20.glDisableVertexAttribArray(0);
-		GL30.glBindVertexArray(0);
+		if (_rotationAngle >= 360.0) {
+			_rotationAngle -= 360.0;
+		}
 	}
 
 	@Override
 	public void draw() {
-
+		GL11.glPushMatrix();
+		GL11.glTranslatef(0f, 0f, _posZ);
+		GL11.glRotatef((float) _rotationAngle, 0f, 1.0f, 0.0f);
+		_pyramid.draw();
+		GL11.glPopMatrix();
 	}
 
 	@Override
 	public void destroy() {
-		GL20.glDisableVertexAttribArray(0);
-		GL15.glBindBuffer(GL15.GL_ARRAY_BUFFER, 0);
-		GL15.glDeleteBuffers(_vboId);
 
-		GL30.glBindVertexArray(0);
-		GL30.glDeleteVertexArrays(_vaoId);
 	}
 }

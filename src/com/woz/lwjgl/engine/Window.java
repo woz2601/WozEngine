@@ -16,8 +16,8 @@ import org.lwjgl.util.glu.GLU;
  * Time: 12:51 PM
  */
 public class Window {
-	public static final int WIDTH = 800;
-	public static final int HEIGHT = 600;
+	public static final int WIDTH = 1280;
+	public static final int HEIGHT = 720;
 
 	public Window() {
 		initDisplay();

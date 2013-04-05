@@ -1,8 +1,6 @@
-package com.woz.lwjgl.engine;
+package com.woz.lwjgl.graphics;
 
 import org.lwjgl.opengl.GL11;
-import org.lwjgl.util.Color;
-import org.lwjgl.util.ReadableColor;
 
 import static org.lwjgl.opengl.GL11.*;
 import static org.lwjgl.opengl.GL11.glEnd;
@@ -14,8 +12,8 @@ import static org.lwjgl.opengl.GL11.glVertex3f;
  * Time: 12:45 AM
  */
 public class Graphics {
-	private static ReadableColor _defaultColor = Color.WHITE;
-	private static ReadableColor _color = _defaultColor;
+	private static Color _defaultColor = Color.WHITE;
+	private static Color _color = _defaultColor;
 
 	public static void drawCube(float x, float y, float z) {
 		GL11.glPushMatrix();
@@ -32,7 +30,7 @@ public class Graphics {
 		glPopMatrix();
 	}
 
-	public static void drawCube(float x, float y, float z, ReadableColor color) {
+	public static void drawCube(float x, float y, float z, Color color) {
 		_color = color;
 		glPushMatrix();
 		glTranslatef(x, y, z);

@@ -3,6 +3,7 @@ package com.woz.lwjgl.engine.gameobject;
 import com.woz.lwjgl.engine.Input;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.util.vector.Vector2f;
+import org.lwjgl.util.vector.Vector3f;
 
 /*
  * Created with IntelliJ IDEA.
@@ -15,18 +16,18 @@ public class Box extends GameObject {
 	private float _maxSpeed = 0.01f;
 
 	public Box() {
-		this(new Vector2f(), new Vector2f());
+		this(new Vector3f(), new Vector3f());
 	}
 
 	public Box(float x, float y) {
-		this(new Vector2f(x, y), new Vector2f());
+		this(new Vector3f(x, y, 0), new Vector3f());
 	}
 
-	public Box(Vector2f position , Vector2f velocity) {
+	public Box(Vector3f position , Vector3f velocity) {
 		this(position, velocity, 60, 60);
 	}
 
-	public Box(Vector2f position , Vector2f velocity, int width, int height) {
+	public Box(Vector3f position , Vector3f velocity, int width, int height) {
 		super(position, velocity, width, height);
 	}
 

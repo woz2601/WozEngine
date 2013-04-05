@@ -1,9 +1,9 @@
 package com.woz.lwjgl.engine.scene;
 
 import com.woz.lwjgl.engine.Camera;
-import com.woz.lwjgl.engine.Graphics;
+import com.woz.lwjgl.graphics.Color;
+import com.woz.lwjgl.graphics.Graphics;
 import org.lwjgl.opengl.GL11;
-import org.lwjgl.util.Color;
 
 /*
  * User: Daniel
@@ -27,8 +27,9 @@ public class CameraTest implements IScene {
 		GL11.glPushMatrix();
 		GL11.glTranslatef(50.0f, -1.0f, 50.0f);
 		GL11.glScalef(100.0f, 0.0f, 100.0f);
-		Graphics.drawCube(0, 0, 0);
+		Graphics.drawCube(0, 0, 0, Color.DGRAY);
 		GL11.glPopMatrix();
+
 		GL11.glPushMatrix();
 		Graphics.drawCube(0, 0, 0);
 		GL11.glPopMatrix();

@@ -1,6 +1,6 @@
 package com.woz.lwjgl.engine.gameobject;
 
-import com.woz.lwjgl.engine.Graphics;
+import com.woz.lwjgl.graphics.Graphics;
 import static org.lwjgl.opengl.GL11.*;
 
 /*

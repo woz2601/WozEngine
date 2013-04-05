@@ -3,6 +3,7 @@ package com.woz.lwjgl.engine.gameobject;
 import com.woz.lwjgl.engine.Game;
 import org.lwjgl.opengl.Display;
 import org.lwjgl.util.vector.Vector2f;
+import org.lwjgl.util.vector.Vector3f;
 
 /*
  * Created with IntelliJ IDEA.
@@ -11,17 +12,17 @@ import org.lwjgl.util.vector.Vector2f;
  * Time: 1:25 AM
  */
 public abstract class GameObject {
-	protected Vector2f _position;
-	protected Vector2f _velocity;
-	protected int _width;
-	protected int _height;
+	protected Vector3f _position;
+	protected Vector3f _velocity;
+	protected float  _width;
+	protected float  _height;
 	private int _borderSize;
 
 	protected GameObject() {
-		this(new Vector2f(), new Vector2f(), 60, 60);
+		this(new Vector3f(), new Vector3f(), 60, 60);
 	}
 
-	protected GameObject(Vector2f position, Vector2f velocity, int width, int height) {
+	protected GameObject(Vector3f position, Vector3f velocity, int width, int height) {
 		_position = position;
 		_velocity = velocity;
 
@@ -52,5 +53,9 @@ public abstract class GameObject {
 	public static GameObject Instantiate() {
 		//TODO Implement static factory method for GameObjects
 		return null;
+	}
+
+	public Vector3f getPosition() {
+		return _position;
 	}
 }
