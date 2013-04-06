@@ -1,19 +1,17 @@
 package com.woz.lwjgl.engine;
 
 import com.woz.lwjgl.engine.gameobject.GameObject;
-import com.woz.lwjgl.math.Vector3d;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.util.glu.GLU;
 import org.lwjgl.util.vector.Vector3f;
-import sun.security.x509.IPAddressName;
 
 /*
  * User: Daniel
  * Date: 4/4/13
  * Time: 4:12 PM
  */
-public class Camera {
-	private Vector3f _position;
+public class Camera extends GameObject {
+	//private Vector3f _position;
 	private Vector3f _direction;
 	private Vector3f _up;
 	private float  _speed;
@@ -34,6 +32,13 @@ public class Camera {
 
 		_rotationAngle = -90.0f;
 		_rotationSpeed = 40.0f;
+
+		_name = "Main Camera";
+	}
+
+	@Override
+	public void draw() {
+		//TODO - implement camera draw method
 	}
 
 	private void calculateDirection() {
@@ -48,6 +53,8 @@ public class Camera {
 		GL11.glLoadIdentity();
 
 		checkInput(deltaTime);
+
+		calculateDirection();
 
 		GLU.gluLookAt(_position.x, _position.y, _position.z,
 					  _position.x + _direction.x, _position.y + _direction.y, _position.z + _direction.z,
@@ -81,15 +88,15 @@ public class Camera {
 		}
 		if (Input.rotateLeft) {
 			_rotationAngle -= _rotationSpeed * deltaTime;
-			calculateDirection();
+			//calculateDirection();
 		}
 		if (Input.rotateRight) {
 			_rotationAngle += _rotationSpeed * deltaTime;
-			calculateDirection();
+			//calculateDirection();
 		}
 	}
 
 	public void lookAt(GameObject gameObject) {
-		Vector3f.sub(gameObject.getPosition(), _position, _direction);
+		Vector3f.sub(gameObject.position(), _position, _direction);
 	}
 }

@@ -10,10 +10,12 @@ import org.lwjgl.opengl.GL11;
 public class Pyramid extends GameObject {
 
 	public Pyramid(float baseWidth, float height) {
+		super();
 		_width = baseWidth;
 		_height = height;
-	}
 
+		_name = "Pyramid";
+	}
 
 	@Override
 	public void draw() {

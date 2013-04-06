@@ -1,10 +1,12 @@
 package com.woz.lwjgl.engine.scene;
 
+import com.woz.lwjgl.engine.gameobject.GameObject;
 import org.lwjgl.BufferUtils;
 import org.lwjgl.opengl.*;
 
 import java.nio.ByteBuffer;
 import java.nio.FloatBuffer;
+import java.util.List;
 
 /*
  * User: Daniel
@@ -94,5 +96,10 @@ public class IndexBufferTest implements IScene {
 
 		GL30.glBindVertexArray(0);
 		GL30.glDeleteVertexArrays(_vaoId);
+	}
+
+	@Override
+	public List<GameObject> gameObjects() {
+		return null;  //To change body of implemented methods use File | Settings | File Templates.
 	}
 }

@@ -1,9 +1,12 @@
 package com.woz.lwjgl.engine.scene;
 
 import com.woz.lwjgl.engine.Camera;
+import com.woz.lwjgl.engine.gameobject.GameObject;
 import com.woz.lwjgl.graphics.Color;
 import com.woz.lwjgl.graphics.Graphics;
 import org.lwjgl.opengl.GL11;
+
+import java.util.List;
 
 /*
  * User: Daniel
@@ -38,5 +41,10 @@ public class CameraTest implements IScene {
 	@Override
 	public void destroy() {
 
+	}
+
+	@Override
+	public List<GameObject> gameObjects() {
+		return null;  //To change body of implemented methods use File | Settings | File Templates.
 	}
 }

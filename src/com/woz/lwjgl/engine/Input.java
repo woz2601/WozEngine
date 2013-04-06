@@ -24,6 +24,7 @@ public class Input {
 
 	public static boolean rotateLeft = false;
 	public static boolean rotateRight = false;
+	public static boolean printGameObjectInfo = false;
 
 	private Input() {
 	}
@@ -112,6 +113,11 @@ public class Input {
 
 				if (Keyboard.getEventKey() == Keyboard.KEY_RIGHT) {
 					rotateRight = true;
+					System.out.println("Rotating Right");
+				}
+
+				if (Keyboard.getEventKey() == Keyboard.KEY_I) {
+					printGameObjectInfo = true;
 					System.out.println("Rotating Right");
 				}
 			}

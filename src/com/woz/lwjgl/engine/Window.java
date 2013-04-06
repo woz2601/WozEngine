@@ -1,9 +1,5 @@
 package com.woz.lwjgl.engine;
 
-import com.woz.lwjgl.engine.scene.IScene;
-import com.woz.lwjgl.util.Text;
-import com.woz.lwjgl.util.Time;
-import com.woz.lwjgl.util.VersionTest;
 import com.woz.lwjgl.util.Debug;
 import org.lwjgl.LWJGLException;
 import org.lwjgl.opengl.*;
@@ -25,7 +21,7 @@ public class Window {
 		initComponents();
 
 		if (Debug.DEBUG_MODE)
-			Debug.printInfo();
+			Debug.printDeviceInfo();
 	}
 
 	private void initComponents() {

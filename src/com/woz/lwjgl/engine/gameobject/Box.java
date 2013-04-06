@@ -24,11 +24,11 @@ public class Box extends GameObject {
 	}
 
 	public Box(Vector3f position , Vector3f velocity) {
-		this(position, velocity, 60, 60);
+		this(position, velocity, 60, 60, "<untitled>");
 	}
 
-	public Box(Vector3f position , Vector3f velocity, int width, int height) {
-		super(position, velocity, width, height);
+	public Box(Vector3f position , Vector3f velocity, int width, int height, String name) {
+		super(position, velocity, width, height, name);
 	}
 
 	@Override

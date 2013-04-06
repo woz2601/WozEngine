@@ -8,6 +8,7 @@ import com.woz.lwjgl.engine.scene.*;
 import com.woz.lwjgl.util.Debug;
 import com.woz.lwjgl.util.Time;
 import org.lwjgl.opengl.Display;
+import sun.nio.cs.ext.ISCII91;
 
 /*
  * Created with IntelliJ IDEA.
@@ -27,6 +28,10 @@ public class Game {
 		//_controller = new ScalePlaneController((TransformingPlaneTest) _scene);
 
 		Input.init();
+
+		if (Debug.DEBUG_MODE) {
+			Debug.printGameObjectsInfo(_scene);
+		}
 	}
 
 	public void run() {
@@ -35,18 +40,28 @@ public class Game {
 
 			Input.pollInput();
 
+			_scene.update(Time.getDeltaTime());
+
+			//_controller.update(Time.getDeltaTime());
+			_scene.draw();
+
+			_window.update();
+
 			if (Debug.DEBUG_MODE) {
 				Debug.printFPS();
 			}
 
-			//_controller.update(Time.getDeltaTime());
-			_scene.update(Time.getDeltaTime());
-			_scene.draw();
-
-			_window.update();
+			if (Input.printGameObjectInfo) {
+				Debug.printGameObjectsInfo(_scene);
+				Input.printGameObjectInfo = false;
+			}
 		}
 
 		shutDown();
+	}
+
+	public IScene getScene(){
+		return _scene;
 	}
 
 	public void shutDown() {

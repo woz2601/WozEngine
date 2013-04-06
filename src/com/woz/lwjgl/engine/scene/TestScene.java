@@ -118,6 +118,11 @@ public class TestScene implements IScene {
 		GL30.glDeleteVertexArrays(_vaoId);
 	}
 
+	@Override
+	public List<GameObject> gameObjects() {
+		return null;  //To change body of implemented methods use File | Settings | File Templates.
+	}
+
 	private void drawTestPolygons() {
 		GL30.glBindVertexArray(_vaoId);
 		GL20.glEnableVertexAttribArray(0);

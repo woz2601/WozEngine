@@ -6,6 +6,7 @@ package com.woz.lwjgl.engine.scene;
  * Time: 2:37 AM
  */
 
+import com.woz.lwjgl.engine.gameobject.GameObject;
 import com.woz.lwjgl.util.Direction;
 import org.lwjgl.BufferUtils;
 import org.lwjgl.opengl.GL11;
@@ -15,6 +16,7 @@ import org.lwjgl.opengl.GL30;
 
 import java.nio.ByteBuffer;
 import java.nio.FloatBuffer;
+import java.util.List;
 
 public class TransformingPlaneTest implements IScene {
 	private int _vaoId;
@@ -118,6 +120,11 @@ public class TransformingPlaneTest implements IScene {
 
 		GL30.glBindVertexArray(0);
 		GL30.glDeleteVertexArrays(_vaoId);
+	}
+
+	@Override
+	public List<GameObject> gameObjects() {
+		return null;  //To change body of implemented methods use File | Settings | File Templates.
 	}
 
 	public void setPosZ(float posZ) {

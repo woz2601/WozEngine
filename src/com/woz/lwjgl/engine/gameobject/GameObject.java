@@ -16,13 +16,16 @@ public abstract class GameObject {
 	protected Vector3f _velocity;
 	protected float  _width;
 	protected float  _height;
+	protected float _defaultWidth = 1.0f;
 	private int _borderSize;
+	protected String _name;
+	protected String _defaultName = "<untitled>";
 
 	protected GameObject() {
-		this(new Vector3f(), new Vector3f(), 60, 60);
+		this(new Vector3f(), new Vector3f(), 60, 60, "<untitled>");
 	}
 
-	protected GameObject(Vector3f position, Vector3f velocity, int width, int height) {
+	protected GameObject(Vector3f position, Vector3f velocity, int width, int height, String name) {
 		_position = position;
 		_velocity = velocity;
 
@@ -30,6 +33,8 @@ public abstract class GameObject {
 		_height = height;
 
 		_borderSize = 2;
+
+		_name = name;
 	}
 
 	public void update(long delta) {
@@ -55,7 +60,15 @@ public abstract class GameObject {
 		return null;
 	}
 
-	public Vector3f getPosition() {
+	public Vector3f position() {
 		return _position;
+	}
+
+	public String name() {
+		return _name;
+	}
+
+	public void setName(String name) {
+		_name = name;
 	}
 }
